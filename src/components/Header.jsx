@@ -17,7 +17,7 @@ export default function Header() {
               <li className="nav-item">
                 <Link className="nav-link" to="/about">About</Link>
               </li>
-              {/* <li className="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Rooms Listing
                 </a>
@@ -30,7 +30,7 @@ export default function Header() {
                   <li><Link className="dropdown-item" to="r6keshav115198">Room 6</Link></li>
                   <li><Link className="dropdown-item" to="r7">Room 7</Link></li>
                 </ul>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>
