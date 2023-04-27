@@ -13,7 +13,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/rentsystem/about" element={<About />} />
+          <Route path="about" element={<About />} />
           <Route path="/index" element={<Index />} />
           <Route path="/r1vivek2292251" element={<Room data={data[0]} />} />
           <Route path="/r2vinod2291415" element={<Room data={data[1]} />} />
